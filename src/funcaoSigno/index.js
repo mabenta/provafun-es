@@ -19,6 +19,7 @@ export default function Signo(){
     return(
 
         <section className='Signo'>
+            <div className='Fundo-Signo'>
             <h1 className='Titulo-Signo'> Fução Signo </h1>
             <div className='Fundo'>
                 <div>
@@ -51,6 +52,7 @@ export default function Signo(){
 
                 </div>
 
+            </div>
             </div>
         </section>
 

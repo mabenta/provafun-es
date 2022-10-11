@@ -20,7 +20,8 @@ export default function Paradas(){
 
 
     return(
-        <div className='Principlal-Paradas'>
+        <div className='Principal-Paradas'>
+            <div className='Fundo-Paradas'>
             <h1>CALCULAR QUANTAS PARADAS</h1>
             <div className='input'>
                 <h4>Informe a Capacidade:</h4>
@@ -37,6 +38,7 @@ export default function Paradas(){
             <button onClick ={calcularClick}> Calcular </button>
             <div>
             <span>  VOCE PRECISA FAZER:   {mensagem} PARADAS </span>
+            </div>
             </div>
         </div>
     )

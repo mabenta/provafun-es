@@ -18,7 +18,8 @@ export default function Salario(){
     }
 
     return(
-        <div>
+        <div className='Principal-Salario'>
+            <div className='Fundo-Salario'>
             <h1>Calcular Salario</h1>
             <div className='input'>
                 <h4>Informe o Salário:</h4>
@@ -32,10 +33,13 @@ export default function Salario(){
                 <h4>Agora , Informe o Desconto:</h4>
                 <input type='number' value={desc} onChange ={e => Number (setDesc(e.target.value))}></input>
             </div>
+            <div className='Botao'>
             <button onClick ={calcularClick}> Calcular </button>
+            </div>
             <div>
             <h4> O Seu Salario é de R$ {mensagem} </h4>
             </div>
+            </div>   
         </div>
     )
 }

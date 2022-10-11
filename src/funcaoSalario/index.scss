@@ -1,0 +1,21 @@
+
+.Principal-Salario{
+    background-image: url('../../public/dinheiro.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 250vh;
+
+
+    .Fundo-Salario{
+        background-color: rgba($color: #D0CACE, $alpha: 0.7);
+        background-repeat: no-repeat;
+        margin: 1vh 75vh 5vh 10vh;
+        width: 70vh;
+        height: 80vh;
+    }
+
+}
+

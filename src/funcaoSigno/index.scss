@@ -1,1 +1,22 @@
 
+.Signo{
+  background-image: url('../../public/signo.jpg'); 
+    width: 220vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.Fundo-Signo{
+    background-color: rgba($color: #D0CACE, $alpha: 0.7);
+    background-repeat: no-repeat;
+    margin: 7vh;
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}

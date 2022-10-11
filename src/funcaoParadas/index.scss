@@ -1,1 +1,24 @@
 
+.Principal-Paradas{
+    background-image: url('../../public/postodegasolina.jpg');
+    margin: 10vh;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 150vh;
+
+
+    .Fundo-Paradas{
+        background-color: rgba($color: #D0CACE, $alpha: 0.7);
+        background-repeat: no-repeat;
+        margin: 7vh;
+        width: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+
+    }
+}
+

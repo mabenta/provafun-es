@@ -25,8 +25,9 @@ export default function Sorveteria(){
 
         <section>
           <div className='Principal-Sorveteria'>
-          <div className='Fundo'>
-            <h1 className="Sorveteria">Sorveteria</h1>
+          <div className='Fundo-Sorveteria'>
+            
+            <h1>Sorveteria</h1>
                 <div className="Titulo">
                     <h4> Digite o valor em gramas:</h4>
                     <input type="number" 
@@ -40,6 +41,7 @@ export default function Sorveteria(){
                         R${vlTotal}
                     </div>
                     </div>
+            
             </div>
             </div>
         </section>
