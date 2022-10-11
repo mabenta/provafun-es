@@ -1,0 +1,36 @@
+
+.Principal{
+    background-image: url('../../public/imgprova.jpg');
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  
+  .Fundo{
+    background-color: rgba($color: #D0CACE, $alpha: 0.7);
+    background-repeat: no-repeat;
+    margin: 7vh;
+    width: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+  }
+
+    .Titulo{
+  display: flex;
+  flex-direction: row;
+    color: #fff;
+    }
+
+    .Image{
+  
+        
+    }
+
+    
+}
