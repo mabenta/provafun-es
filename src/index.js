@@ -4,7 +4,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-
+import FuncaoOrcamento from '../src/funcaoOrcamento/index'
+import FuncaoCinema from '../src/funcaoCinema/index'
 import FuncaoAcai from '../src/funcaoAcai/index'
 import FuncaoSigno from '../src/funcaoSigno/index'
 import FuncaoSorvete from '../src/funcaoSorvete/index'
@@ -22,12 +23,10 @@ root.render(
       <Route path='/funcaofebre'element={<FuncaoFebre/>}/>
       <Route path='/funcaosalario' element={<FuncaoSalario/>}/>
       <Route path='/fucaoparadas' element={<FuncaoParadas/>}/>
+      <Route path='/funcaocinema' element={<FuncaoCinema/>}/>
+      <Route path='/funcaoorcamento' element={<FuncaoOrcamento/>}/>
       
 
-      
-     
-
-      
       
       
 
