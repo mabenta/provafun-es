@@ -4,6 +4,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+import FuncaoRetangulo from '../src/funcaoRetangulo/index'
+import FuncaoLinha from '../src/funcaoLinha/index';
+import FuncaoContador from '../src/funcaoContador/index'
 import FuncaoOrcamento from '../src/funcaoOrcamento/index'
 import FuncaoCinema from '../src/funcaoCinema/index'
 import FuncaoAcai from '../src/funcaoAcai/index'
@@ -25,6 +28,12 @@ root.render(
       <Route path='/fucaoparadas' element={<FuncaoParadas/>}/>
       <Route path='/funcaocinema' element={<FuncaoCinema/>}/>
       <Route path='/funcaoorcamento' element={<FuncaoOrcamento/>}/>
+      <Route path='/funcaocontador' element={<FuncaoContador/>}/>
+      <Route path='/funcaolinha' element={<FuncaoLinha/>}/>
+      <Route path='/funcaoretangulo' element={<FuncaoRetangulo/>}/>
+      
+
+
       
 
       
